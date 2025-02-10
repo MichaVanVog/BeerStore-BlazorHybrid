@@ -70,7 +70,7 @@ namespace BeerStore.Server.Controllers
 
             await subdivisionRepository.DeleteSubdivisionAsync(subdivision);
 
-            return Ok();
+            return Ok(subdivision);
         }
     }
 }
